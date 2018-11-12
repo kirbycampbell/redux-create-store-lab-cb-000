@@ -1,4 +1,4 @@
-export default function createStore(reducer: []) {
+export default function createStore(reducer) {
   let state;
 
   function dispatch(action) {
